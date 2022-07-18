@@ -1,7 +1,4 @@
-FROM ros:galactic
-
-# # Switch from sh to bash
-# SHELL ["/bin/bash", "-c"]
+FROM ros:galactic-ros-base
 
 # Update all packages
 RUN apt update && apt upgrade -y

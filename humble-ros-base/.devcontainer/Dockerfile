@@ -1,7 +1,4 @@
-FROM ros:humble
-
-# # Switch from sh to bash
-# SHELL ["/bin/bash", "-c"]
+FROM ros:humble-ros-base
 
 # Update all packages
 RUN apt update && apt upgrade -y

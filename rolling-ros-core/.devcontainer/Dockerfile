@@ -1,7 +1,4 @@
-FROM ros:rolling
-
-# # Switch from sh to bash
-# SHELL ["/bin/bash", "-c"]
+FROM ros:rolling-ros-core
 
 # Update all packages
 RUN apt update && apt upgrade -y
@@ -14,6 +11,3 @@ RUN apt install gdb -y
 
 # Source the ROS Rolling setup file
 RUN echo "source /opt/ros/rolling/setup.bash" >> ~/.bashrc
-
-# Install
-RUN apt install ros-rolling-v4l2-camera -y

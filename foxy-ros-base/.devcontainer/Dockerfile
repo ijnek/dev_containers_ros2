@@ -1,7 +1,4 @@
-FROM ros:foxy
-
-# # Switch from sh to bash
-# SHELL ["/bin/bash", "-c"]
+FROM ros:foxy-ros-base
 
 # Update all packages
 RUN apt update && apt upgrade -y
