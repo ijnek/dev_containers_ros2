@@ -6,5 +6,8 @@ RUN apt update && apt upgrade -y
 # Allows ssh repository cloning
 RUN apt install openssh-client -y
 
-# Source the ROS Foxy setup file
+# Allows gdb
+RUN apt install gdb -y
+
+# Source the ROS foxy setup file
 RUN echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
