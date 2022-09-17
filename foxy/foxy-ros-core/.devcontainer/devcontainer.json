@@ -7,6 +7,8 @@
     "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
   ],
   "runArgs": [
-    "--device=/dev/video0:/dev/video0:mwr"
+    "--device=/dev/video0:/dev/video0:mwr",
+    "--network=host",
+    "--device=/dev/dri:/dev/dri"
   ]
 }
