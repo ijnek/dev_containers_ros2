@@ -1,9 +1,7 @@
 {
   "dockerFile": "Dockerfile",
   "containerEnv": {
-    "DISPLAY": "unix:0",
-    "NVIDIA_VISIBLE_DEVICES": "all",
-    "NVIDIA_DRIVER_CAPABILITIES": "all"
+    "DISPLAY": "unix:0"
   },
   "mounts": [
     "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
