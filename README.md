@@ -1,6 +1,10 @@
 # Dev Containers ROS2
 
-Personal dev containers for ROS2 projects
+Github dev containers for the following ROS 2 distributions:
+- Foxy
+- Galactic
+- Humble
+- Rolling
 
 ## Before you start
 
