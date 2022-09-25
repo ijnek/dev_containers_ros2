@@ -42,6 +42,8 @@ as usual.
 
 ## Notes
 
+Here is a list of notes explaining the reason for using the respective options in ``devcontainer.json``.
+
 In ``devcontainer.json``:
 
 * ``mounts``
