@@ -20,13 +20,25 @@ This lets you open GUI programs from within the dev-containers.
 
 1. Clone this repository
 1. In VS Code, Click on ``Open Folder... [Ctrl+K Ctrl+O]``, and open one of the subdirectories that contain a ``.devcontainer`` folder. (eg. ``rolling-desktop``)
-1. VS Code will bring up a dialog, asking about opening the folder in a dev container. Click on ``Reopen in Container``.
+1. VS Code will bring up the dialog below, asking about opening the folder in a dev container. Click on ``Reopen in Container``.
+
+    ![](readme_images/Reopen%20In%20Container.png)
 
 VS Code will then build the devcontainer. This takes some time the first time, but the second time should be much quicker.
 
 If VS Code opens a dev container successfully, you now have ROS 2 (Rolling Desktop packages in this case) pre-installed, and ready to be used within that window. You can create a ROS 2 workspace and start developing!
 
 If the build fails (it happens sometimes), open a GitHub Issue and post any available logs in it!
+
+### Using VSCode Extensions
+
+To use the extensions you always use, go to the Extensions pane on the left side of the VS Code
+window, and click on the following button.
+
+![](readme_images/Install%20Plugins.png)
+
+The installation of the extensions should be relatively quick, and you should be able to use them
+as usual.
 
 ## Notes
 
