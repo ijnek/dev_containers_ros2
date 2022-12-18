@@ -1,7 +1,7 @@
 FROM ros:galactic-ros-base
 
 # Rosdep update
-RUN rosdep update
+RUN rosdep update --include-eol-distros
 
 # Update all packages
 RUN apt update && apt upgrade -y
