@@ -1,5 +1,8 @@
 FROM osrf/ros:galactic-desktop
 
+# Rosdep update
+RUN rosdep update --include-eol-distros
+
 # Update all packages
 RUN apt update && apt upgrade -y
 
