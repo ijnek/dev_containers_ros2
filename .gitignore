@@ -1,0 +1,8 @@
+# Ignore everything because all files inside the containers get tracked otherwise, and it's annoying.
+*
+
+# Except these files
+*/!.devcontainer/
+!readme_images/
+!README.md
+!.gitignore
