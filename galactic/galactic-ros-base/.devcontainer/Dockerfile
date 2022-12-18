@@ -1,5 +1,8 @@
 FROM ros:galactic-ros-base
 
+# Rosdep update
+RUN rosdep update
+
 # Update all packages
 RUN apt update && apt upgrade -y
 

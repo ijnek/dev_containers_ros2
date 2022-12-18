@@ -1,5 +1,8 @@
 FROM osrf/ros:humble-desktop
 
+# Rosdep update
+RUN rosdep update
+
 # Update all packages
 RUN apt update && apt upgrade -y
 
