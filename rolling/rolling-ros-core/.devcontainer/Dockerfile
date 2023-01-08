@@ -10,8 +10,7 @@ RUN apt install git -y
 RUN apt install python3-colcon-common-extensions -y
 RUN apt install python3-rosdep -y
 
-# Rosdep
-RUN rosdep init
+# Rosdep update
 RUN rosdep update
 # Source the ROS Rolling setup file
 RUN echo "source /opt/ros/rolling/setup.bash" >> ~/.bashrc
