@@ -1,16 +1,18 @@
 FROM ros:humble-ros-core
 
-# Rosdep update
-RUN rosdep update
-
 # Update all packages
 RUN apt update && apt upgrade -y
 
-# Allows ssh repository cloning
-RUN apt install openssh-client -y
-
-# Allows gdb
+# Install extra packages
+RUN apt install build-essential -y
 RUN apt install gdb -y
+RUN apt install git -y
+RUN apt install python3-colcon-common-extensions -y
+RUN apt install python3-rosdep -y
+
+# Rosdep
+RUN rosdep init
+RUN rosdep update
 
 # Source the ROS humble setup file
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
