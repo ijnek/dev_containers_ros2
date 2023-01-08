@@ -12,7 +12,8 @@ RUN apt install git -y
 RUN apt install python3-colcon-common-extensions -y
 RUN apt install python3-rosdep -y
 
-# Rosdep update
+# Rosdep init and update
+RUN rosdep init
 RUN rosdep update --include-eol-distros
 
 # Source the ROS galactic setup file

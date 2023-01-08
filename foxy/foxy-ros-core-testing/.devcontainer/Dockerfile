@@ -15,7 +15,8 @@ RUN apt install git -y
 RUN apt install python3-colcon-common-extensions -y
 RUN apt install python3-rosdep -y
 
-# Rosdep
+# Rosdep init and update
+RUN rosdep init
 RUN rosdep update
 
 # Source the ROS foxy setup file

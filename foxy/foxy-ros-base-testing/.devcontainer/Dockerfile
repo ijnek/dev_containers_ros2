@@ -9,7 +9,7 @@ RUN apt update && apt upgrade -y
 # Install extra packages
 RUN apt install gdb -y
 
-# Rosdep
+# Rosdep update
 RUN rosdep update
 
 # Source the ROS foxy setup file
