@@ -6,6 +6,8 @@ Github dev containers for the following ROS 2 distributions:
 * Humble (core, base, desktop, desktop-full, core-testing, base-testing, desktop-testing, desktop-full-testing)
 * Rolling (core, base, desktop, desktop-full, core-testing, base-testing, desktop-testing, desktop-full-testing)
 
+For the ROS 1 counterpart, see [Dev Containers ROS 1](https://github.com/ijnek/dev_containers_ros1).
+
 ## Before you start
 
 You must add to your host-machine's ``~/.bashrc``,
