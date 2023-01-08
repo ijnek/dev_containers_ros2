@@ -1,4 +1,4 @@
-# Dev Containers ROS2
+# Dev Containers ROS 2
 
 Github dev containers for the following ROS 2 distributions:
 * Foxy (core, base, desktop, core-testing, base-testing, desktop-testing)
