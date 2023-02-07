@@ -48,9 +48,6 @@ Here is a list of notes explaining the reason for using the respective options i
 
 In ``devcontainer.json``:
 
-* ``mounts``
-  * ``source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached`` allows GUI programs to work. This is necessary for
-  RQt to work.
 * ``runArgs``
   * ``--privileged`` allows the container to access the host's resources, including hardware devices (eg. webcam) and GPU.
   * ``--network=host`` allows the container to share the host’s networking namespace, and the container does not get its own IP-address allocated.
