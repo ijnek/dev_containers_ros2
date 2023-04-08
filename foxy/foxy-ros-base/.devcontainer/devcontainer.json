@@ -1,5 +1,8 @@
 {
   "dockerFile": "Dockerfile",
+  "containerEnv": {
+    "DISPLAY": "${localEnv:DISPLAY}"
+  },
   "runArgs": [
     "--privileged",
     "--network=host"
