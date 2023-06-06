@@ -4,6 +4,7 @@ Github dev containers for the following ROS 2 distributions:
 * Foxy (core, base, desktop, core-testing, base-testing, desktop-testing)
 * Galactic (core, base, desktop, core-testing, base-testing, desktop-testing)
 * Humble (core, base, desktop, desktop-full, core-testing, base-testing, desktop-testing, desktop-full-testing)
+* Iron (core, base, desktop, desktop-full, core-testing, base-testing, desktop-testing, desktop-full-testing)
 * Rolling (core, base, desktop, desktop-full, core-testing, base-testing, desktop-testing, desktop-full-testing)
 
 For the ROS 1 counterpart, see [Dev Containers ROS 1](https://github.com/ijnek/dev_containers_ros1).
